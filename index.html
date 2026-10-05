@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NLOGA — Digital Products · Design · Technology</title>
+  <meta name="description" content="Nloga is a multidisciplinary company building digital products, experiences, and brands from strategy through execution." />
+  <meta name="theme-color" content="#f8fafc" id="meta-theme-color" />
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('nloga-theme');
+        var theme = saved === 'dark' || saved === 'light' ? saved : 'light';
+        document.documentElement.setAttribute('data-theme', theme);
+        var meta = document.getElementById('meta-theme-color');
+        if (meta) meta.setAttribute('content', theme === 'dark' ? '#101415' : '#f8fafc');
+        var lang = localStorage.getItem('nloga-lang');
+        document.documentElement.setAttribute('lang', lang === 'fr' ? 'fr' : 'en');
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="icon" type="image/png" sizes="32x32" href="icon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="NLOGA — Venture Studio" />
+  <meta property="og:title" content="NLOGA — Digital Products · Design · Technology" />
+  <meta property="og:description" content="Nloga is a multidisciplinary company building digital products, experiences, and brands from strategy through execution." />
+  <meta property="og:image" content="og-cover.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NLOGA — Digital Products · Design · Technology" />
+  <meta name="twitter:description" content="Nloga is a multidisciplinary company building digital products, experiences, and brands from strategy through execution." />
+  <meta name="twitter:image" content="og-cover.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NLOGA",
+    "description": "Multidisciplinary venture studio building digital products, experiences, and brands from strategy through execution.",
+    "email": "contact@nloga.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Douala", "addressCountry": "CM" },
+    "brand": [{ "@type": "Brand", "name": "Forgeware" }, { "@type": "Brand", "name": "CreativePics Art" }, { "@type": "Brand", "name": "Now Just Create" }]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "Service", "serviceType": "Product & Software Engineering", "name": "Forgeware — Digital products & software", "description": "Product engineering, web and mobile apps, SaaS, APIs, and technical architecture.", "provider": { "@type": "Organization", "name": "NLOGA" }, "areaServed": ["Douala", "Yaoundé", "Remote worldwide"], "offers": { "@type": "Offer", "priceCurrency": "XAF", "price": "450000", "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "XAF", "minPrice": "450000" } } },
+      { "@type": "Service", "serviceType": "Brand & Creative Design", "name": "CreativePics Art — Brand, visual & creative design", "description": "Brand identity, graphic design, marketing visuals, and creative direction.", "provider": { "@type": "Organization", "name": "NLOGA" }, "areaServed": ["Douala", "Yaoundé", "Remote worldwide"], "offers": { "@type": "Offer", "priceCurrency": "XAF", "price": "250000", "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "XAF", "minPrice": "250000" } } },
+      { "@type": "Service", "serviceType": "Training & Development", "name": "Now Just Create — Learning, training & development", "description": "Practical training in design, technology, product thinking, and creative problem solving.", "provider": { "@type": "Organization", "name": "NLOGA" }, "areaServed": ["Douala", "Yaoundé", "Remote worldwide"], "offers": { "@type": "Offer", "priceCurrency": "XAF", "price": "150000", "priceSpecification": { "@type": "PriceSpecification", "priceCurrency": "XAF", "minPrice": "150000" } } }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Do I need a complete specification first?", "acceptedAnswer": { "@type": "Answer", "text": "No. Come with an idea, a problem, or an existing product — the first conversation is about understanding where you are." } },
+      { "@type": "Question", "name": "Do you only work with tech companies?", "acceptedAnswer": { "@type": "Answer", "text": "No. Startups, SMEs, organizations, institutions, creators — the common factor is a meaningful problem to solve well." } },
+      { "@type": "Question", "name": "Can you work on an existing product?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — UX, design, architecture, development, performance, branding, or a larger transformation." } },
+      { "@type": "Question", "name": "Can you handle both design and development?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Design decisions sit next to technical realities, not in separate phases." } },
+      { "@type": "Question", "name": "Do you work with international clients?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Nloga works beyond Cameroon through remote collaboration." } },
+      { "@type": "Question", "name": "Do you offer training?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — through Now Just Create, our learning and development initiative." } },
+      { "@type": "Question", "name": "Can we engage only one pillar?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Engage only design, only software, only branding — or the combination your project needs." } }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=7" />
+  <style>
+    /* === Registration form — animated status beside the submit button === */
+    .cf-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 6px; }
+    .cf-actions .btn-primary { flex: 1 1 auto; min-width: 220px; }
+    .form-status { display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; font-weight: 500; letter-spacing: 0.02em; color: #94a3b8; transition: color 0.35s ease; }
+    .form-status-dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; flex: 0 0 auto; }
+    .form-status.is-invalid { color: #dc2626; }
+    .form-status.is-valid   { color: #16a34a; }
+    .form-status.is-valid .form-status-text { animation: cfStatusSlide 2s ease-in-out infinite; }
+    .form-status.is-valid .form-status-dot { animation: cfDotPulse 1.4s ease-in-out infinite; }
+    @keyframes cfStatusSlide { 0%, 100% { transform: translateX(0); opacity: 1; } 50% { transform: translateX(3px); opacity: 0.85; } }
+    @keyframes cfDotPulse { 0% { box-shadow: 0 0 0 0 rgba(22,163,74,0.55); } 70% { box-shadow: 0 0 0 8px rgba(22,163,74,0); } 100% { box-shadow: 0 0 0 0 rgba(22,163,74,0); } }
+    .cf-actions .btn[disabled] { opacity: 0.55; cursor: not-allowed; pointer-events: none; }
+    .contact-form select { width: 100%; }
+
+    /* === Registration confirmation panel === */
+    .cf-confirmation { margin: 0 0 18px; padding: 18px 18px 20px; border-radius: 14px; border: 1px solid rgba(22,163,74,0.35); background: rgba(22,163,74,0.06); }
+    .cf-copy-block { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; }
+    .cf-copy-label { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: #64748b; }
+    .cf-copy-value { font-family: 'Space Grotesk', ui-monospace, monospace; font-size: 1rem; padding: 10px 12px; background: rgba(15,23,42,0.05); border-radius: 8px; word-break: break-all; }
+    .cf-copy-msg { width: 100%; padding: 10px 12px; border-radius: 8px; border: 1px solid rgba(100,116,139,0.25); background: rgba(15,23,42,0.04); font-family: 'Space Grotesk', ui-monospace, monospace; font-size: 0.85rem; line-height: 1.5; resize: vertical; }
+
+    /* === Form switcher (registration ↔ enquiry) === */
+    .form-switcher {
+      position: relative;
+      display: inline-flex;
+      gap: 4px;
+      padding: 4px;
+      margin-bottom: 26px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.045);
+      border: 1px solid rgba(100, 116, 139, 0.18);
+      box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.04);
+      isolation: isolate;
+    }
+    .switcher-tab {
+      position: relative;
+      z-index: 2;
+      padding: 10px 20px;
+      border: 0;
+      background: transparent;
+      font: inherit;
+      font-weight: 600;
+      font-size: 0.9rem;
+      letter-spacing: 0.01em;
+      color: #64748b;
+      cursor: pointer;
+      border-radius: 999px;
+      transition: color 0.35s ease, transform 0.35s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+    .switcher-tab:hover { color: #334155; }
+    .switcher-tab:active { transform: scale(0.98); }
+    .switcher-tab.active { color: #0f172a; }
+    .switcher-tab .material-symbols-outlined { font-size: 18px; }
+    .switcher-indicator {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      height: calc(100% - 8px);
+      width: 0;
+      border-radius: 999px;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08), 0 0 0 1px rgba(15, 23, 42, 0.02);
+      transition: transform 0.42s cubic-bezier(.4,0,.2,1), width 0.42s cubic-bezier(.4,0,.2,1);
+      z-index: 1;
+      will-change: transform, width;
+    }
+    [data-theme="dark"] .form-switcher { background: rgba(255, 255, 255, 0.04); border-color: rgba(148, 163, 184, 0.2); }
+    [data-theme="dark"] .switcher-tab { color: #94a3b8; }
+    [data-theme="dark"] .switcher-tab.active { color: #f1f5f9; }
+    [data-theme="dark"] .switcher-indicator { background: rgba(255,255,255,0.08); box-shadow: 0 2px 12px rgba(0,0,0,0.4); }
+
+    /* === Form panels — the switching animation lives HERE, inside the form === */
+    .form-panels { position: relative; }
+    .form-panel { display: none; }
+    .form-panel.active { display: block; }
+
+    /* Panel entry: smooth fade + small slide (form-scoped, not full-page) */
+    .form-panel.active .contact-form {
+      animation: panelEnter 0.55s cubic-bezier(.22,1,.36,1) both;
+    }
+    @keyframes panelEnter {
+      from { opacity: 0; transform: translateY(14px) scale(0.995); }
+      to   { opacity: 1; transform: translateY(0)    scale(1);     }
+    }
+
+    /* Field cascade: each row / field slides in one after another */
+    .form-panel.active .contact-form > * {
+      animation: fieldEnter 0.5s cubic-bezier(.22,1,.36,1) both;
+    }
+    .form-panel.active .contact-form > *:nth-child(1) { animation-delay: 0.05s; }
+    .form-panel.active .contact-form > *:nth-child(2) { animation-delay: 0.09s; }
+    .form-panel.active .contact-form > *:nth-child(3) { animation-delay: 0.13s; }
+    .form-panel.active .contact-form > *:nth-child(4) { animation-delay: 0.17s; }
+    .form-panel.active .contact-form > *:nth-child(5) { animation-delay: 0.21s; }
+    .form-panel.active .contact-form > *:nth-child(6) { animation-delay: 0.25s; }
+    .form-panel.active .contact-form > *:nth-child(7) { animation-delay: 0.29s; }
+    .form-panel.active .contact-form > *:nth-child(8) { animation-delay: 0.33s; }
+    @keyframes fieldEnter {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0);    }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .switcher-indicator { transition: none; }
+      .form-panel.active .contact-form,
+      .form-panel.active .contact-form > * { animation: none; }
+      .form-status.is-valid .form-status-text,
+      .form-status.is-valid .form-status-dot { animation: none; }
+    }
+    @media (max-width: 520px) {
+      .form-switcher { display: flex; width: 100%; }
+      .switcher-tab { flex: 1 1 0; justify-content: center; padding: 10px 12px; font-size: 0.82rem; }
+      .switcher-tab .material-symbols-outlined { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="scroll-progress" aria-hidden="true"><i id="scroll-progress-bar"></i></div>
+
+  <div class="pulse-overlay is-visible" id="route-pulse-overlay" aria-hidden="true">
+    <div class="pulse-rings">
+      <span class="ring ring-1"></span>
+      <span class="ring ring-2"></span>
+      <div class="pulse-core">
+        <picture>
+          <source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/nloga_consulting_logo.webp" />
+          <img src="NLOGA_VISUAL_IDENTITY/nloga_consulting_logo.jfif" alt="" decoding="async" />
+        </picture>
+      </div>
+    </div>
+    <div class="pulse-copy">
+      <span class="label-caps pulse-tag">Venturing forward</span>
+      <span class="code-badge pulse-sub">NLOGA CONSULTING &amp; VENTURE STUDIO</span>
+    </div>
+  </div>
+
+  <div class="pulse-overlay" id="interactive-pulse" aria-hidden="true">
+    <div class="pulse-rings">
+      <span class="ring ring-1"></span>
+      <span class="ring ring-2"></span>
+      <div class="pulse-core">
+        <picture>
+          <source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/nloga_consulting_logo.webp" />
+          <img src="NLOGA_VISUAL_IDENTITY/nloga_consulting_logo.jfif" alt="" decoding="async" />
+        </picture>
+      </div>
+    </div>
+    <div class="pulse-copy">
+      <span class="label-caps pulse-tag">Initializing studio matrix</span>
+      <span class="code-badge pulse-sub" id="pulse-message">Forgeware · CreativePics Art · Now Just Create</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Nloga — home">
+        <img class="brand-logo" src="new_logo.png" alt="Nloga monogram" />
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#capabilities" class="nav-link">Capabilities</a>
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#ecosystem" class="nav-link">Ecosystem</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#insights" class="nav-link">Insights</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Toggle theme">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <button type="button" class="lang-btn" data-lang="fr">FR</button>
+        </div>
+        <a class="btn btn-primary btn-sm header-cta" href="#contact">Start a project</a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true" aria-label="Mobile navigation">
+    <nav class="drawer-nav" aria-label="Mobile">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#capabilities" class="nav-link">Capabilities</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#ecosystem" class="nav-link">Ecosystem</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#insights" class="nav-link">Insights</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div class="drawer-footer">
+      <a class="btn btn-primary btn-block" href="#contact">Start a project</a>
+      <button class="btn btn-secondary btn-block theme-toggle-wide" id="theme-toggle-drawer" type="button" aria-pressed="false">
+        <span class="material-symbols-outlined icon-sm" aria-hidden="true">contrast</span>
+        <span id="theme-toggle-drawer-label">Switch to dark theme</span>
+      </button>
+      <div class="lang-switch drawer-lang" role="group" aria-label="Language">
+        <button type="button" class="lang-btn active" data-lang="en">EN</button>
+        <span class="lang-sep" aria-hidden="true">|</span>
+        <button type="button" class="lang-btn" data-lang="fr">FR</button>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-scrim" id="drawer-scrim" hidden></div>
+
+  <main id="home">
+
+    <div class="blueprint-layer" aria-hidden="true">
+      <svg class="bp-svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="curve-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.8" />
+            <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.4" />
+            <stop offset="100%" stop-color="#b7c4ff" stop-opacity="0.1" />
+          </linearGradient>
+        </defs>
+        <path class="bp-curve" d="M-100,200 C300,100 450,550 900,320 C1350,90 1500,600 2000,400" fill="none" stroke="url(#curve-gradient)" stroke-width="2.5" />
+        <path class="bp-curve" d="-50,850 C400,650 600,1150 1100,950 C1600,750 1750,1300 2100,1100" fill="none" stroke="url(#curve-gradient)" stroke-width="1.75" />
+      </svg>
+    </div>
+
+    <section class="section hero" id="hero">
+      <div class="container">
+        <div class="hero-topbar reveal">
+          <span class="status-pill">
+            <span class="dot dot-primary"></span>
+            <span class="label-caps">Digital products · Design · Technology</span>
+          </span>
+          <span class="flow-pill code-badge" aria-hidden="true">
+            <b>Strategy</b><i>→</i><span>Design</span><i>→</i><b>Build</b><i>→</i><span>Launch</span><i>→</i><em>Evolve</em>
+          </span>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-editorial reveal">
+            <span class="outline-ghost headline-lg">Ideas are everywhere.</span>
+            <h1 class="headline-xl">We turn the right ones into <span class="stroke-primary">something real.</span></h1>
+            <p class="body-lg lead">At Nloga, we bring strategy, product design, technology, and creative thinking together to build digital products and brands that people can understand, use, trust, and remember.</p>
+            <p class="body-md muted">From the first idea to the final experience, we help transform complexity into clarity and possibility into execution.</p>
+            <div class="cta-row">
+              <button type="button" class="btn btn-primary" data-pulse="Consultation matrix initialized">
+                <span>Start a conversation</span>
+                <span class="material-symbols-outlined icon-sm">arrow_forward</span>
+              </button>
+              <a class="btn btn-secondary" href="#capabilities">
+                <span>Explore our capabilities</span>
+                <span class="material-symbols-outlined icon-sm icon-primary">south</span>
+              </a>
+            </div>
+            <p class="flow-line code-badge">
+              <b>Strategy</b><i>→</i><span>Design</span><i>→</i><b>Build</b><i>→</i><span>Launch</span><i>→</i><em>Evolve</em>
+            </p>
+            <div class="metric-grid">
+              <article class="metric-card">
+                <span class="metric-value tone-primary" data-count="3">3</span>
+                <span class="label-caps faint">Ecosystem pillars</span>
+              </article>
+              <article class="metric-card">
+                <span class="metric-value" data-count="100" data-suffix="%">100%</span>
+                <span class="label-caps faint">Strategy to execution</span>
+              </article>
+            </div>
+          </div>
+
+          <aside class="hero-visual reveal" data-d="120" aria-label="The Nloga ecosystem at a glance">
+            <div class="visual-stack glass-panel">
+              <div class="spotlight" aria-hidden="true"></div>
+              <article class="module-card">
+                <div class="module-left">
+                  <span class="module-ic ic-primary"><span class="material-symbols-outlined">terminal</span></span>
+                  <div>
+                    <span class="module-name">Forgeware</span>
+                    <span class="module-desc">Digital products &amp; software</span>
+                  </div>
+                </div>
+                <span class="module-tag tag-primary">Build</span>
+              </article>
+              <article class="module-card">
+                <div class="module-left">
+                  <span class="module-ic ic-tertiary"><span class="material-symbols-outlined">brush</span></span>
+                  <div>
+                    <span class="module-name">CreativePics Art</span>
+                    <span class="module-desc">Brand, visual &amp; creative design</span>
+                  </div>
+                </div>
+                <span class="module-tag tag-secondary">Design</span>
+              </article>
+              <article class="module-card">
+                <div class="module-left">
+                  <span class="module-ic ic-neutral"><span class="material-symbols-outlined">school</span></span>
+                  <div>
+                    <span class="module-name">Now Just Create</span>
+                    <span class="module-desc">Learning, training &amp; development</span>
+                  </div>
+                </div>
+                <span class="module-tag tag-tertiary">Empower</span>
+              </article>
+              <div class="banner-mini">
+                <div class="banner-mini-inner">
+                  <span class="label-caps banner-eyebrow">The Nloga ecosystem</span>
+                  <strong class="headline-md">One company. <span class="stroke-primary">Three forces.</span></strong>
+                  <p class="banner-copy">Building technology. Shaping experiences. Creating identities. Developing people.</p>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="logo-strip" aria-label="Trusted by">
+      <div class="container logo-strip-inner">
+        <span class="label-caps faint">Trusted by teams &amp; founders</span>
+        <div class="logo-row">
+          <span class="logo-mark">HRConnect</span>
+          <span class="logo-mark">IMANI-J Style</span>
+          <span class="logo-mark">Sahel Foods</span>
+          <span class="logo-mark">Wouri Logistique</span>
+          <span class="logo-mark">Campus 237</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-deep" id="what-we-do">
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">What we do</span>
+            <h2 class="headline-xl">We don&rsquo;t just make things look good. <span class="tone-primary">We make ideas work.</span></h2>
+          </div>
+          <p class="body-md muted section-head-aside">
+            A good product needs more than code. A strong brand needs more than a logo. And a promising idea needs more than enthusiasm.
+          </p>
+        </div>
+
+        <p class="body-lg lead reveal section-close">
+          It needs clarity, strategy, thoughtful design, solid technology, and the discipline to bring everything together. That&rsquo;s where Nloga comes in.
+          We work across the space between <b>business, people, design, and technology</b> to create solutions that are not only visually compelling, but functional, usable, technically sound, and built with purpose.
+        </p>
+
+        <div class="quad-grid" style="margin-top: 15px;">
+          <article class="quad-card reveal">
+            <div class="quad-top"><span class="code-badge tone-primary">01 / Pillar</span><span class="material-symbols-outlined tone-primary">monitoring</span></div>
+            <div class="quad-body"><h3 class="headline-md">Business</h3><p class="body-md muted">We start from objectives, constraints, and opportunities so the solution has a reason to exist beyond the brief.</p></div>
+            <span class="quad-bar"><i class="fill-primary" style="--w: 66%"></i></span>
+          </article>
+          <article class="quad-card reveal" data-d="70">
+            <div class="quad-top"><span class="code-badge tone-secondary">02 / Pillar</span><span class="material-symbols-outlined tone-secondary">groups</span></div>
+            <div class="quad-body"><h3 class="headline-md">People</h3><p class="body-md muted">We care about what people actually need, understand, and experience &mdash; not just what a specification says.</p></div>
+            <span class="quad-bar"><i class="fill-secondary" style="--w: 74%"></i></span>
+          </article>
+          <article class="quad-card reveal" data-d="140">
+            <div class="quad-top"><span class="code-badge tone-tertiary">03 / Pillar</span><span class="material-symbols-outlined tone-tertiary">draw</span></div>
+            <div class="quad-body"><h3 class="headline-md">Design</h3><p class="body-md muted">Structure, simplicity, consistency, and clarity &mdash; turned into interfaces and identities people can use and remember.</p></div>
+            <span class="quad-bar"><i class="fill-tertiary" style="--w: 82%"></i></span>
+          </article>
+          <article class="quad-card reveal" data-d="210">
+            <div class="quad-top"><span class="code-badge tone-primary-container">04 / Pillar</span><span class="material-symbols-outlined tone-primary">code</span></div>
+            <div class="quad-body"><h3 class="headline-md">Technology</h3><p class="body-md muted">Architecture, performance, maintainability, and scalability &mdash; because beautiful interfaces alone are not enough.</p></div>
+            <span class="quad-bar"><i class="fill-primary-container" style="--w: 100%"></i></span>
+          </article>
+        </div>
+
+        <p class="body-md muted reveal section-close">
+          Whether you are starting something new, improving something that already exists, or trying to turn a complex problem into a practical solution, we help you move forward.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="capabilities">
+      <svg class="ribbon ribbon-cap" viewBox="0 0 600 400" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="rg-cap" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.7" />
+            <stop offset="55%" stop-color="#3b82f6" stop-opacity="0.35" />
+            <stop offset="100%" stop-color="#b7c4ff" stop-opacity="0.08" />
+          </linearGradient>
+        </defs>
+        <path d="M-20,340 C140,320 160,120 320,130 C480,140 470,320 620,280" fill="none" stroke="url(#rg-cap)" stroke-width="2.5" />
+        <path d="M-20,368 C150,350 180,170 330,178 C480,186 480,350 620,312" fill="none" stroke="url(#rg-cap)" stroke-width="1.5" opacity="0.7" />
+      </svg>
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">Our capabilities</span>
+            <h2 class="headline-xl">One vision. <span class="tone-primary">Multiple disciplines.</span></h2>
+          </div>
+          <div class="car-nav" role="group" aria-label="Capabilities carousel controls">
+            <button class="car-btn" id="carousel-prev" type="button" aria-label="Previous capabilities"><span class="material-symbols-outlined icon-sm">chevron_left</span></button>
+            <button class="car-btn" id="carousel-next" type="button" aria-label="Next capabilities"><span class="material-symbols-outlined icon-sm">chevron_right</span></button>
+          </div>
+        </div>
+        <p class="body-lg lead reveal" style="margin-bottom: 15px;">Understanding the problem before building the solution.</p>
+        <div class="carousel reveal">
+          <div class="car-track" id="capabilities-track">
+            <article class="cap-card">
+              <div class="cap-top"><span class="code-badge tone-primary">01 / Software</span><span class="material-symbols-outlined tone-primary">data_object</span></div>
+              <p class="cap-tagline">From idea to working product.</p>
+              <h3 class="headline-lg">Product &amp; Software</h3>
+              <p class="body-md muted">Discovery, architecture, web apps, mobile, SaaS, internal tools, APIs, and custom software.</p>
+              <div class="chip-row"><span class="chip">Web apps</span><span class="chip">Mobile</span><span class="chip">SaaS</span><span class="chip">APIs</span></div>
+              <button type="button" class="cap-link link-primary" data-pulse="Forgeware Software Module Selected"><span>Explore product &amp; software</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button>
+            </article>
+            <article class="cap-card">
+              <div class="cap-top"><span class="code-badge tone-secondary">02 / Interaction</span><span class="material-symbols-outlined tone-secondary">devices</span></div>
+              <p class="cap-tagline">Make complex things feel simple.</p>
+              <h3 class="headline-lg">UX/UI &amp; Product Design</h3>
+              <p class="body-md muted">Research, architecture, flows, wireframes, interfaces, prototypes, and design systems.</p>
+              <div class="chip-row"><span class="chip">UX research</span><span class="chip">Wireframes</span><span class="chip">UI design</span><span class="chip">Systems</span></div>
+              <button type="button" class="cap-link link-secondary" data-pulse="CreativePics UX Module Selected"><span>Explore product design</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button>
+            </article>
+            <article class="cap-card">
+              <div class="cap-top"><span class="code-badge tone-tertiary">03 / Branding</span><span class="material-symbols-outlined tone-tertiary">palette</span></div>
+              <p class="cap-tagline">Give ideas a recognizable presence.</p>
+              <h3 class="headline-lg">Brand &amp; Creative</h3>
+              <p class="body-md muted">Strategy, identity, graphic design, and communication assets people remember.</p>
+              <div class="chip-row"><span class="chip">Identity</span><span class="chip">Branding</span><span class="chip">Marketing</span><span class="chip">Decks</span></div>
+              <button type="button" class="cap-link link-tertiary" data-pulse="CreativePics Brand Module Selected"><span>Explore brand &amp; creative</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button>
+            </article>
+            <article class="cap-card">
+              <div class="cap-top"><span class="code-badge tone-primary-container">04 / Knowledge</span><span class="material-symbols-outlined tone-primary">local_library</span></div>
+              <p class="cap-tagline">Build better people, better solutions.</p>
+              <h3 class="headline-lg">Training &amp; Knowledge</h3>
+              <p class="body-md muted">Practical skills in design, technology, product thinking, and creative problem solving.</p>
+              <div class="chip-row"><span class="chip">UX/UI</span><span class="chip">Product</span><span class="chip">Dev</span><span class="chip">Workflows</span></div>
+              <button type="button" class="cap-link link-primary" data-pulse="Now Just Create Module Selected"><span>Explore learning</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button>
+            </article>
+          </div>
+        </div>
+        <span class="car-progress reveal" aria-hidden="true"><i id="car-progress-bar"></i></span>
+      </div>
+    </section>
+
+    <section class="section section-deep" id="approach">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">Our approach</span>
+            <h2 class="headline-xl">Think deeply. <span class="tone-primary">Design intentionally.</span> Build properly.</h2>
+          </div>
+          <p class="body-lg lead section-head-aside">The best solutions connect disciplines instead of working in isolated boxes.</p>
+        </div>
+        <div class="node-grid">
+          <article class="node reveal"><div class="node-top"><span class="code-badge phase">Phase 01</span><span class="node-num" aria-hidden="true">1</span></div><div class="node-title"><h3 class="headline-md">Understand</h3></div><span class="label-caps node-q">What problem are we solving?</span><p class="body-md muted">Context, people, objectives, constraints.</p></article>
+          <article class="node reveal" data-d="80"><div class="node-top"><span class="code-badge phase">Phase 02</span><span class="node-num" aria-hidden="true">2</span></div><div class="node-title"><h3 class="headline-md">Design</h3><span class="label-caps node-q">What should it feel like?</span></div><p class="body-md muted">Structure and simplify into usable experiences.</p></article>
+          <article class="node reveal" data-d="160"><div class="node-top"><span class="code-badge phase">Phase 03</span><span class="node-num" aria-hidden="true">3</span></div><div class="node-title"><h3 class="headline-md">Build</h3><span class="label-caps node-q">How do we make it real?</span></div><p class="body-md muted">Robust, maintainable, scalable products.</p></article>
+          <article class="node reveal" data-d="240"><div class="node-top"><span class="code-badge phase">Phase 04</span><span class="node-num" aria-hidden="true">4</span></div><div class="node-title"><h3 class="headline-md">Evolve</h3><span class="label-caps node-q">How does it keep improving?</span></div><p class="body-md muted">Learn, measure, improve, and adapt.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="problems">
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">What we help with</span>
+            <h2 class="headline-xl">From &ldquo;we have an idea&rdquo; to <span class="tone-primary">&ldquo;this actually works.&rdquo;</span></h2>
+          </div>
+          <p class="body-md muted section-head-aside">Six situations we meet most often &mdash; and how we move each one forward.</p>
+        </div>
+        <div class="prob-grid">
+          <article class="prob-card reveal"><span class="prob-arrow material-symbols-outlined" aria-hidden="true">north_east</span><h3>You have an idea.</h3><p class="body-md muted">We help turn an abstract concept into a structured product opportunity.</p></article>
+          <article class="prob-card reveal" data-d="60"><span class="prob-arrow material-symbols-outlined" aria-hidden="true">north_east</span><h3>Your existing product is confusing.</h3><p class="body-md muted">We identify friction, rethink the experience, and design a clearer product.</p></article>
+          <article class="prob-card reveal" data-d="120"><span class="prob-arrow material-symbols-outlined" aria-hidden="true">north_east</span><h3>Your business has outgrown its tools.</h3><p class="body-md muted">We design and build digital systems that support the next stage of your operations.</p></article>
+          <article class="prob-card reveal" data-d="180"><span class="prob-arrow material-symbols-outlined" aria-hidden="true">north_east</span><h3>Your brand no longer reflects your business.</h3><p class="body-md muted">We reposition and redesign your visual identity and communication system.</p></article>
+          <article class="prob-card reveal" data-d="240"><span class="prob-arrow material-symbols-outlined" aria-hidden="true">north_east</span><h3>Your organization wants to innovate.</h3><p class="body-md muted">We help teams explore, design, prototype, and build practical digital solutions.</p></article>
+          <article class="prob-card reveal" data-d="300"><span class="prob-arrow material-symbols-outlined" aria-hidden="true">north_east</span><h3>Your team needs new skills.</h3><p class="body-md muted">Learning experiences focused on practical design, development, and product thinking.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="container">
+        <div class="why-grid">
+          <div class="why-left reveal">
+            <span class="eyebrow label-caps">Why Nloga</span>
+            <h2 class="headline-xl">Good execution starts with <span class="tone-primary">good thinking.</span></h2>
+            <p class="body-md muted">One roof for strategy, design, technology, and creativity — nothing lost in translation between idea and working product.</p>
+            <div class="mini-card">
+              <span class="mini-card-title"><span class="material-symbols-outlined tone-primary">verified</span>Zero translation friction</span>
+              <p class="body-sm muted">Engineers beside identity directors: products ship faster with zero visual degradation.</p>
+            </div>
+          </div>
+          <div class="why-right">
+            <article class="pillar-row reveal"><span class="code-badge tone-primary">01 · Multidisciplinary</span><h3 class="headline-md">Convergence, not silos</h3><p class="body-md muted">Strategy, design, technology, and creativity working together instead of in isolation.</p></article>
+            <article class="pillar-row reveal" data-d="70"><span class="code-badge tone-secondary">02 · Human-centered</span><h3 class="headline-md">Built for real people</h3><p class="body-md muted">What people need, understand, and experience — not just what a brief says.</p></article>
+            <article class="pillar-row reveal" data-d="140"><span class="code-badge tone-tertiary">03 · Technically conscious</span><h3 class="headline-md">Beautiful and buildable</h3><p class="body-md muted">Architecture, performance, and scalability considered from the first sketch.</p></article>
+            <article class="pillar-row reveal" data-d="210"><span class="code-badge tone-primary">04 · Business-aware</span><h3 class="headline-md">Objectives before pixels</h3><p class="body-md muted">Constraints and opportunities shape every decision.</p></article>
+            <article class="pillar-row reveal" data-d="280"><span class="code-badge faint">05 · Built for evolution</span><h3 class="headline-md">Foundations that adapt</h3><p class="body-md muted">Designed for today, built to grow with users and needs.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-deep" id="work">
+      <svg class="ribbon ribbon-work" viewBox="0 0 600 400" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="rg-work" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.55" />
+            <stop offset="60%" stop-color="#1d4ed8" stop-opacity="0.3" />
+            <stop offset="100%" stop-color="#b7c4ff" stop-opacity="0.08" />
+          </linearGradient>
+        </defs>
+        <path d="M-20,60 C150,20 300,20 460,80 C540,112 580,120 620,110" fill="none" stroke="url(#rg-work)" stroke-width="2" />
+        <path d="M140,390 C300,340 450,340 620,380" fill="none" stroke="url(#rg-work)" stroke-width="2" opacity="0.8" />
+      </svg>
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">Selected work</span>
+            <h2 class="headline-xl">Ideas brought <span class="tone-primary">closer to reality.</span></h2>
+          </div>
+          <div class="tabs" role="tablist" aria-label="Filter projects">
+            <button type="button" class="tab active" data-filter="all">All</button>
+            <button type="button" class="tab" data-filter="software">Software</button>
+            <button type="button" class="tab" data-filter="brand">Brand</button>
+            <button type="button" class="tab" data-filter="education">Education</button>
+          </div>
+        </div>
+        <div class="work-grid">
+          <article class="work-card reveal" data-category="software">
+            <div class="work-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655731479-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655731479-1280.webp 1280w" sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655731479.jfif" alt="Digital product by Nloga" loading="lazy" decoding="async" data-full="NLOGA_VISUAL_IDENTITY/1787655731479-1280.webp" /></picture><span class="work-flag flag-primary">Forgeware</span></div>
+            <div class="work-body">
+              <div class="work-meta"><span class="label-caps faint">Software</span><span class="code-badge muted">Case 01</span></div>
+              <h3 class="headline-md">Digital Product</h3>
+              <p class="body-md muted">From concept to a user-centered digital experience.</p>
+              <div class="work-metric"><span class="material-symbols-outlined icon-sm" aria-hidden="true">trending_up</span><span>Concept to launch in one team</span></div>
+              <div class="work-foot"><button type="button" class="work-link" data-quote="Product / Software" data-package="Digital Product (Case 01)"><span>Get a quote</span><span class="material-symbols-outlined icon-sm">request_quote</span></button><button type="button" class="work-link" data-modal="case-1"><span>View case study</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button></div>
+            </div>
+          </article>
+          <article class="work-card reveal" data-d="80" data-category="brand">
+            <div class="work-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655731811-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655731811-1280.webp 1280w" sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655731811.jfif" alt="Brand identity by CreativePics Art" loading="lazy" decoding="async" data-full="NLOGA_VISUAL_IDENTITY/1787655731811-1280.webp" /></picture><span class="work-flag flag-secondary">CreativePics Art</span></div>
+            <div class="work-body">
+              <div class="work-meta"><span class="label-caps faint">Brand</span><span class="code-badge muted">Case 02</span></div>
+              <h3 class="headline-md">Brand and Experience</h3>
+              <p class="body-md muted">A stronger identity around a growing idea.</p>
+              <div class="work-metric"><span class="material-symbols-outlined icon-sm" aria-hidden="true">trending_up</span><span>One identity across every touchpoint</span></div>
+              <div class="work-foot"><button type="button" class="work-link" data-quote="Brand / Creative" data-package="Brand and Experience (Case 02)"><span>Get a quote</span><span class="material-symbols-outlined icon-sm">request_quote</span></button><button type="button" class="work-link" data-modal="case-2"><span>View case study</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button></div>
+            </div>
+          </article>
+          <article class="work-card reveal" data-d="160" data-category="software">
+            <div class="work-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655732189-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655732189-1280.webp 1280w" sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655732189.jfif" alt="Engineering system by Forgeware" loading="lazy" decoding="async" data-full="NLOGA_VISUAL_IDENTITY/1787655732189-1280.webp" /></picture><span class="work-flag flag-primary">Forgeware</span></div>
+            <div class="work-body">
+              <div class="work-meta"><span class="label-caps faint">Engineering</span><span class="code-badge muted">Case 03</span></div>
+              <h3 class="headline-md">Product Engineering</h3>
+              <p class="body-md muted">Complex requirements, practical digital system.</p>
+              <div class="work-metric"><span class="material-symbols-outlined icon-sm" aria-hidden="true">trending_up</span><span>Onboarding: weeks → days</span></div>
+              <div class="work-foot"><button type="button" class="work-link" data-quote="Product / Software" data-package="Product Engineering (Case 03)"><span>Get a quote</span><span class="material-symbols-outlined icon-sm">request_quote</span></button><button type="button" class="work-link" data-modal="case-3"><span>View case study</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button></div>
+            </div>
+          </article>
+          <article class="work-card reveal" data-d="240" data-category="education">
+            <div class="work-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655732669-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655732669-1280.webp 1280w" sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655732669.jfif" alt="Learning session by Now Just Create" loading="lazy" decoding="async" data-full="NLOGA_VISUAL_IDENTITY/1787655732669-1280.webp" /></picture><span class="work-flag flag-tertiary">Now Just Create</span></div>
+            <div class="work-body">
+              <div class="work-meta"><span class="label-caps faint">Learning</span><span class="code-badge muted">Case 04</span></div>
+              <h3 class="headline-md">Design and Technology</h3>
+              <p class="body-md muted">Interface, experience, and engineering together.</p>
+              <div class="work-metric"><span class="material-symbols-outlined icon-sm" aria-hidden="true">trending_up</span><span>Graduates ship real portfolios</span></div>
+              <div class="work-foot"><button type="button" class="work-link" data-quote="Training" data-package="Design and Technology (Case 04)"><span>Get a quote</span><span class="material-symbols-outlined icon-sm">request_quote</span></button><button type="button" class="work-link" data-modal="case-4"><span>View case study</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button></div>
+            </div>
+          </article>
+        </div>
+        <div class="work-cta reveal">
+          <div><h3 class="headline-lg">Have an idea of your own?</h3><p class="body-md muted">Every project starts differently. Tell us where yours begins.</p></div>
+          <a class="btn btn-primary" href="#contact"><span>Talk about it</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ecosystem">
+      <svg class="ribbon ribbon-eco" viewBox="0 0 600 400" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <radialGradient id="rg-eco" cx="50%" cy="50%" r="65%">
+            <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.05" />
+            <stop offset="70%" stop-color="#1d4ed8" stop-opacity="0.35" />
+            <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.6" />
+          </radialGradient>
+        </defs>
+        <ellipse cx="300" cy="200" rx="220" ry="120" fill="none" stroke="url(#rg-eco)" stroke-width="2" />
+        <ellipse cx="300" cy="200" rx="150" ry="78" fill="none" stroke="url(#rg-eco)" stroke-width="1.5" stroke-dasharray="7 9" />
+      </svg>
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">The Nloga ecosystem</span>
+            <h2 class="headline-xl">Different disciplines. <span class="stroke-tertiary">One ecosystem.</span></h2>
+          </div>
+          <p class="body-lg lead section-head-aside">Technology, design, brand, learning, and innovation — connected by one philosophy.</p>
+        </div>
+        <div class="eco-grid">
+          <article class="eco-card reveal">
+            <div class="eco-body">
+              <span class="code-badge tone-primary">Pillar 01 · Technology</span>
+              <div class="eco-stack"><span class="we">WE</span><span class="we stroke-primary">BUILD</span></div>
+              <h3 class="headline-md">Forgeware</h3>
+              <p class="body-md muted">Product engineering, web and mobile apps, SaaS, APIs, and technical architecture. Turn ideas into reliable technology.</p>
+            </div>
+            <div class="eco-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655731479-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655731479-1280.webp 1280w" sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655731479.jfif" alt="Forgeware software and technology" loading="lazy" decoding="async" data-full="NLOGA_VISUAL_IDENTITY/1787655731479-1280.webp" /></picture><span class="media-caption"><span class="dot dot-primary"></span><span class="code-badge">Build · Engineer · Scale</span></span></div>
+            <div class="eco-foot"><button type="button" class="btn btn-secondary btn-block" data-quote="Product / Software" data-package="Forgeware"><span>Talk to Forgeware</span><span class="material-symbols-outlined icon-sm" aria-hidden="true">arrow_forward</span></button></div>
+          </article>
+          <article class="eco-card reveal" data-d="100">
+            <div class="eco-body">
+              <span class="code-badge tone-secondary">Pillar 02 · Creative</span>
+              <div class="eco-stack"><span class="we">WE</span><span class="we stroke-secondary">DESIGN</span></div>
+              <h3 class="headline-md">CreativePics Art</h3>
+              <p class="body-md muted">Brand identity, graphic design, marketing visuals, and creative direction. Make the idea visible — and memorable.</p>
+            </div>
+            <div class="eco-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655734037-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655734037-1280.webp 1280w" sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655734037.jfif" alt="CreativePics Art brand and visual design" loading="lazy" decoding="async" data-full="NLOGA_VISUAL_IDENTITY/1787655734037-1280.webp" /></picture><span class="media-caption"><span class="dot dot-secondary"></span><span class="code-badge">Identity · Visuals · Voice</span></span></div>
+            <div class="eco-foot"><button type="button" class="btn btn-secondary btn-block" data-quote="Brand / Creative" data-package="CreativePics Art"><span>Shape your brand</span><span class="material-symbols-outlined icon-sm" aria-hidden="true">arrow_forward</span></button></div>
+          </article>
+          <article class="eco-card reveal" data-d="200">
+            <div class="eco-body">
+              <span class="code-badge tone-tertiary">Pillar 03 · Learning</span>
+              <div class="eco-stack"><span class="we">WE</span><span class="we stroke-tertiary">EMPOWER</span></div>
+              <h3 class="headline-md">Now Just Create</h3>
+              <p class="body-md muted">Practical training in design, technology, and creative problem solving. Knowledge becomes powerful when it becomes capability.</p>
+            </div>
+            <div class="eco-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655732669-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655732669-1280.webp 1280w" sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655732669.jfif" alt="Now Just Create learning and training" loading="lazy" decoding="async" data-full="NLOGA_VISUAL_IDENTITY/1787655732669-1280.webp" /></picture><span class="media-caption"><span class="dot dot-tertiary"></span><span class="code-badge">Learn · Create · Grow</span></span></div>
+            <div class="eco-foot"><button type="button" class="btn btn-secondary btn-block" data-quote="Training" data-package="Now Just Create"><span>Start learning</span><span class="material-symbols-outlined icon-sm" aria-hidden="true">arrow_forward</span></button></div>
+          </article>
+        </div>
+        <div class="callout reveal">
+          <div class="callout-main">
+            <span class="label-caps">Ecosystem promise</span>
+            <h3 class="headline-lg">We build more than deliverables. We build capability.</h3>
+            <p class="body-md callout-copy">More clarity. Better decisions. Stronger experiences. New opportunities. Better businesses. More capable people.</p>
+          </div>
+          <a class="btn btn-onprimary" href="#contact"><span>Start a project</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-deep" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">Packages &amp; pricing</span>
+            <h2 class="headline-xl">Clear starting points. <span class="tone-primary">Scoped to your reality.</span></h2>
+          </div>
+          <p class="body-lg lead section-head-aside">Fixed starting prices in FCFA so you can budget with confidence. Every engagement is still scoped to your goals — no hidden line items.</p>
+        </div>
+        <div class="price-grid">
+          <article class="price-card reveal">
+            <div class="price-top"><span class="code-badge tone-primary">Forgeware</span><span class="material-symbols-outlined tone-primary" aria-hidden="true">terminal</span></div>
+            <h3 class="headline-md">Build digital products</h3>
+            <p class="price-from">From <strong>450,000</strong> <small>FCFA</small></p>
+            <p class="body-sm muted">Landing pages, web apps, internal tools, and APIs.</p>
+            <ul class="price-list">
+              <li>Product discovery &amp; scoped roadmap</li>
+              <li>UI design with responsive front end</li>
+              <li>Backend, database &amp; API integration</li>
+              <li>Launch support and 30 days of fixes</li>
+            </ul>
+            <p class="price-alt">Ongoing retainer from 250,000 FCFA / month</p>
+            <button type="button" class="btn btn-primary btn-block" data-quote="Product / Software" data-package="Forgeware package"><span>Get a Forgeware quote</span><span class="material-symbols-outlined icon-sm" aria-hidden="true">arrow_forward</span></button>
+          </article>
+          <article class="price-card reveal" data-d="100">
+            <div class="price-top"><span class="code-badge tone-secondary">CreativePics Art</span><span class="material-symbols-outlined tone-secondary" aria-hidden="true">palette</span></div>
+            <h3 class="headline-md">Shape ideas into brands</h3>
+            <p class="price-from">From <strong>250,000</strong> <small>FCFA</small></p>
+            <p class="body-sm muted">Brand identity, collateral, and campaign visuals that stay consistent.</p>
+            <ul class="price-list">
+              <li>Brand strategy &amp; positioning</li>
+              <li>Logo suite, color &amp; typography</li>
+              <li>Social, print &amp; packaging assets</li>
+              <li>Brand guidelines your team can reuse</li>
+            </ul>
+            <p class="price-alt">Ongoing retainer from 150,000 FCFA / month</p>
+            <button type="button" class="btn btn-primary btn-block" data-quote="Brand / Creative" data-package="CreativePics Art package"><span>Get a CreativePics quote</span><span class="material-symbols-outlined icon-sm" aria-hidden="true">arrow_forward</span></button>
+          </article>
+          <article class="price-card reveal" data-d="200">
+            <div class="price-top"><span class="code-badge tone-tertiary">Now Just Create</span><span class="material-symbols-outlined tone-tertiary" aria-hidden="true">school</span></div>
+            <h3 class="headline-md">Grow skills &amp; teams</h3>
+            <p class="price-from">From <strong>150,000</strong> <small>FCFA</small></p>
+            <p class="body-sm muted">Hands-on workshops and cohorts in design, technology, and product thinking.</p>
+            <ul class="price-list">
+              <li>Live, practical, project-based sessions</li>
+              <li>Real briefs reviewed like client work</li>
+              <li>Templates &amp; resources to keep going</li>
+              <li>Certificate of completion</li>
+            </ul>
+            <p class="price-alt">6-week cohort from 150,000 FCFA / participant</p>
+            <button type="button" class="btn btn-primary btn-block" data-quote="Training" data-package="Now Just Create package"><span>Get a training quote</span><span class="material-symbols-outlined icon-sm" aria-hidden="true">arrow_forward</span></button>
+          </article>
+        </div>
+        <p class="price-note reveal"><span class="material-symbols-outlined icon-sm tone-primary" aria-hidden="true">info</span><span>Prices are starting points in FCFA, excluding VAT. Request a fixed quote and we confirm scope, timeline, and cost within 48 hours.</span></p>
+      </div>
+    </section>
+
+    <section class="section section-deep" id="who">
+      <div class="container">
+        <div class="sub-head reveal">
+          <span class="eyebrow label-caps">Who we work with</span>
+          <h2 class="headline-xl">For people building what comes next.</h2>
+        </div>
+        <div class="who-grid">
+          <article class="who-card reveal"><span class="who-ic"><span class="material-symbols-outlined">rocket_launch</span></span><h3 class="code-badge">Startups &amp; Founders</h3><p class="body-sm muted">You have an idea and need strategy, design, and technology to move it forward.</p></article>
+          <article class="who-card reveal" data-d="60"><span class="who-ic"><span class="material-symbols-outlined">trending_up</span></span><h3 class="code-badge">SMEs &amp; Growing Businesses</h3><p class="body-sm muted">Your business is evolving — your systems and brand need to evolve with it.</p></article>
+          <article class="who-card reveal" data-d="120"><span class="who-ic"><span class="material-symbols-outlined">corporate_fare</span></span><h3 class="code-badge">Organizations</h3><p class="body-sm muted">Thoughtful digital solutions and stronger communication with users.</p></article>
+          <article class="who-card reveal" data-d="180"><span class="who-ic"><span class="material-symbols-outlined">groups</span></span><h3 class="code-badge">Teams &amp; Institutions</h3><p class="body-sm muted">Strengthen your team&rsquo;s ability to think, design, build, and innovate.</p></article>
+          <article class="who-card reveal" data-d="240"><span class="who-ic"><span class="material-symbols-outlined">auto_awesome</span></span><h3 class="code-badge">Creators &amp; Innovators</h3><p class="body-sm muted">You have something worth building — we make it tangible.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <svg class="ribbon ribbon-about" viewBox="0 0 200 600" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="rg-about" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#b7c4ff" stop-opacity="0.1" />
+            <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.4" />
+            <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.65" />
+          </linearGradient>
+        </defs>
+        <path d="M100,-20 C40,150 160,300 100,450 C70,540 90,580 110,620" fill="none" stroke="url(#rg-about)" stroke-width="2" />
+      </svg>
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-main reveal">
+            <span class="eyebrow label-caps">About Nloga</span>
+            <h2 class="headline-xl">We believe complex ideas deserve <span class="tone-primary">better execution.</span></h2>
+            <p class="body-md muted">Nloga exists at the intersection of design, technology, business, and creativity. We create digital products and brands for people and organizations that want to solve meaningful problems and build things that last.</p>
+            <h3 class="headline-lg about-story-title">Nloga started with a simple belief.</h3>
+            <p class="body-md muted">There are many good ideas in the world, and many talented people. But turning an idea into something genuinely useful requires understanding, collaboration, design, technology &mdash; and above all, execution. Nloga brings these capabilities closer together so ambitious ideas move from concept to reality. We are building an ecosystem where software, design, creativity, and learning reinforce one another.</p>
+            <div class="about-duo">
+              <article class="about-card"><span class="label-caps tone-primary">Our vision</span><p class="body-md">To become a trusted force for building useful, human-centered solutions from Africa and beyond.</p></article>
+              <article class="about-card"><span class="label-caps tone-primary">Our mission</span><p class="body-md strong">Build. Design. Enable.</p><div class="chip-row"><span class="chip">Technology to build</span><span class="chip">Design to simplify</span><span class="chip">Strategy to guide</span><span class="chip">Creativity to differentiate</span><span class="chip">Learning to enable</span></div></article>
+            </div>
+          </div>
+          <aside class="about-side reveal" data-d="120">
+            <div class="eco-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655731811-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655731811-1280.webp 1280w" sizes="(min-width: 1024px) 520px, 100vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655731811.jfif" alt="The Nloga studio at work" loading="lazy" decoding="async" data-full="NLOGA_VISUAL_IDENTITY/1787655731811-1280.webp" /></picture><span class="media-caption"><span class="dot dot-primary"></span><span class="code-badge">Strategy · Design · Technology</span></span></div>
+          </aside>
+        </div>
+        <div class="sub-head reveal">
+          <span class="eyebrow label-caps" style="margin-top: 30px;">Our values</span>
+          <h2 class="headline-lg">The principles behind the work.</h2>
+        </div>
+        <div class="values-grid">
+          <article class="value-card reveal"><span class="code-badge tone-primary">01</span><h4>Curiosity</h4><p class="body-sm muted">We question assumptions and explore better possibilities.</p></article>
+          <article class="value-card reveal" data-d="60"><span class="code-badge tone-primary">02</span><h4>Clarity</h4><p class="body-sm muted">Complexity should be understood before it is solved.</p></article>
+          <article class="value-card reveal" data-d="120"><span class="code-badge tone-primary">03</span><h4>Craft</h4><p class="body-sm muted">Details shape the experience. We care about them.</p></article>
+          <article class="value-card reveal" data-d="180"><span class="code-badge tone-primary">04</span><h4>Purpose</h4><p class="body-sm muted">Technology and design should solve real problems.</p></article>
+          <article class="value-card reveal" data-d="240"><span class="code-badge tone-primary">05</span><h4>Continuous learning</h4><p class="body-sm muted">Nothing is finished forever. We keep improving.</p></article>
+          <article class="value-card reveal" data-d="300"><span class="code-badge tone-primary">06</span><h4>Responsibility</h4><p class="body-sm muted">We build with awareness of the people affected.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-deep" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">How we work</span>
+            <h2 class="headline-xl">A clear process from ambiguity <span class="tone-primary">to execution.</span></h2>
+          </div>
+          <p class="body-lg lead section-head-aside">Six moves, one discipline: understand first, then build what matters.</p>
+        </div>
+        <div class="steps">
+          <article class="step reveal"><span class="node-num">1</span><h3 class="headline-md">Discover</h3><p class="body-md muted">Objectives, users, constraints, opportunities — and what success should look like.</p><p class="step-output"><b>Output:</b> a clearer opportunity and direction.</p></article>
+          <article class="step reveal" data-d="60"><span class="node-num">2</span><h3 class="headline-md">Define</h3><p class="body-md muted">Priorities, scope, requirements, and a shared understanding of what we build.</p><p class="step-output"><b>Output:</b> a focused roadmap.</p></article>
+          <article class="step reveal" data-d="120"><span class="node-num">3</span><h3 class="headline-md">Design</h3><p class="body-md muted">Flows, architecture, wireframes, interfaces, and prototypes.</p><p class="step-output"><b>Output:</b> a validated experience.</p></article>
+          <article class="step reveal" data-d="180"><span class="node-num">4</span><h3 class="headline-md">Build</h3><p class="body-md muted">Engineering guided by product goals, design decisions, and long-term needs.</p><p class="step-output"><b>Output:</b> a functional, tested solution.</p></article>
+          <article class="step reveal" data-d="240"><span class="node-num">5</span><h3 class="headline-md">Launch</h3><p class="body-md muted">Deployment, handover, and the move from development to real use.</p><p class="step-output"><b>Output:</b> a product ready for the world.</p></article>
+          <article class="step reveal" data-d="300"><span class="node-num">6</span><h3 class="headline-md">Evolve</h3><p class="body-md muted">Feedback, observation, and performance guide what happens next.</p><p class="step-output"><b>Output:</b> a product that keeps getting better.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="insights">
+      <svg class="ribbon ribbon-insights" viewBox="0 0 600 300" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="rg-insights" x1="100%" y1="0%" x2="0%" y2="0%">
+            <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.6" />
+            <stop offset="60%" stop-color="#3b82f6" stop-opacity="0.3" />
+            <stop offset="100%" stop-color="#b7c4ff" stop-opacity="0.08" />
+          </linearGradient>
+        </defs>
+        <path d="M620,40 C460,10 340,30 220,90 C140,130 60,130 -20,100" fill="none" stroke="url(#rg-insights)" stroke-width="2" />
+      </svg>
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">Insights</span>
+            <h2 class="headline-xl">Ideas worth thinking about.</h2>
+          </div>
+          <p class="body-lg lead section-head-aside">Notes on product, design, technology, brand, and learning — from the studio.</p>
+        </div>
+        <div class="insights-grid">
+          <article class="insight-card reveal"><span class="code-badge tone-primary">Product</span><h3 class="headline-md">Why building the product is not the same as solving the problem</h3><p class="body-md muted">A product can work perfectly and still solve the wrong problem. Clarity comes before implementation.</p><button type="button" class="cap-link" data-modal="article-1"><span>Read article</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button></article>
+          <article class="insight-card reveal" data-d="80"><span class="code-badge tone-secondary">Design</span><h3 class="headline-md">Good design is not decoration</h3><p class="body-md muted">It is the process of making a product understandable, useful, and enjoyable to use.</p><button type="button" class="cap-link" data-modal="article-2"><span>Read article</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button></article>
+          <article class="insight-card reveal" data-d="160"><span class="code-badge tone-tertiary">Nloga</span><h3 class="headline-md">One studio, three forces: build, design, empower</h3><p class="body-md muted">How Forgeware, CreativePics Art, and Now Just Create reinforce one another.</p><button type="button" class="cap-link" data-modal="article-3"><span>Read article</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></button></article>
+        </div>
+        <div class="quote-card reveal" style="margin-top: 30px;">
+          <span class="label-caps tone-primary">What people say</span>
+          <p class="headline-md">Good work should speak through the people who experience it.</p>
+          <p class="body-md muted">What clients and partners tell us after working together.</p>
+        </div>
+        <div class="t-grid">
+          <article class="t-card reveal">
+            <span class="t-stars" aria-hidden="true">★★★★★</span>
+            <p class="body-md">“Nloga turned our scattered idea into a product our team actually uses every day. The process was clear from the first call to launch.”</p>
+            <div class="t-who"><strong>Sandrine M.</strong><span class="body-sm muted">Founder, Douala-based retail startup</span></div>
+          </article>
+          <article class="t-card reveal" data-d="80">
+            <span class="t-stars" aria-hidden="true">★★★★★</span>
+            <p class="body-md">“Our old tools were slowing us down. They rebuilt the system around how we really work — and our brand finally looks like the business we have become.”</p>
+            <div class="t-who"><strong>Jean-Claude T.</strong><span class="body-sm muted">Operations Manager, Yaoundé SME</span></div>
+          </article>
+          <article class="t-card reveal" data-d="160">
+            <span class="t-stars" aria-hidden="true">★★★★★</span>
+            <p class="body-md">“The training was practical from day one. Our team left with skills we still use — not just certificates.”</p>
+            <div class="t-who"><strong>Aïcha B.</strong><span class="body-sm muted">Program Coordinator, training cohort</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-deep" id="contact">
+      <svg class="ribbon ribbon-contact" viewBox="0 0 600 200" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="rg-contact" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.15" />
+            <stop offset="55%" stop-color="#3b82f6" stop-opacity="0.4" />
+            <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.7" />
+          </linearGradient>
+        </defs>
+        <path d="M-20,180 C150,160 250,40 420,50 C520,56 560,90 620,70" fill="none" stroke="url(#rg-contact)" stroke-width="2.5" />
+        <path d="M-20,200 C160,185 260,80 430,88" fill="none" stroke="url(#rg-contact)" stroke-width="1.5" opacity="0.7" />
+      </svg>
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head-main">
+            <span class="eyebrow label-caps">Get in touch</span>
+            <h2 class="headline-xl">Register for a course, or <span class="tone-primary">tell us about your project.</span></h2>
+          </div>
+          <p class="body-lg lead section-head-aside">Pick the form that fits you — switch anytime with one click.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-main reveal">
+            <div class="form-switcher" id="form-switcher" role="tablist" aria-label="Choose a form">
+              <span class="switcher-indicator" aria-hidden="true"></span>
+              <button type="button" class="switcher-tab active" data-form="register" role="tab" aria-selected="true">
+                <span class="material-symbols-outlined" aria-hidden="true">school</span>
+                <span>Course registration</span>
+              </button>
+              <button type="button" class="switcher-tab" data-form="enquiry" role="tab" aria-selected="false">
+                <span class="material-symbols-outlined" aria-hidden="true">forum</span>
+                <span>Project enquiry</span>
+              </button>
+            </div>
+
+            <div class="form-panels">
+              <div class="form-panel active" id="panel-register" data-panel="register" role="tabpanel">
+                <form class="contact-form" id="contact-form" novalidate>
+                  <div class="form-row">
+                    <div class="form-field">
+                      <label for="cf-name">Full name</label>
+                      <input id="cf-name" name="name" type="text" placeholder="Your name" autocomplete="name" required />
+                    </div>
+                    <div class="form-field">
+                      <label for="cf-email">Email address</label>
+                      <input id="cf-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-field">
+                      <label for="cf-phone">WhatsApp number</label>
+                      <input id="cf-phone" name="phone" type="tel" placeholder="+237 6XX XX XX XX" autocomplete="tel" required />
+                    </div>
+                    <div class="form-field">
+                      <label for="cf-course">Course / Program</label>
+                      <select id="cf-course" name="course" required>
+                        <option value="">Choose a course…</option>
+                        <option value="Office Tools Fondations (MS Word & Excel)">Office Tools Fondations (MS Word &amp; Excel)</option>
+                        <option value="Learn Design Tools (Adobe Photoshop Foundations)">Learn Design Tools (Adobe Photoshop Foundations)</option>
+                        <option value="Learn Design Tools (Adobe Illustrator Foundations)">Learn Design Tools (Adobe Illustrator Foundations)</option>
+                        <option value="Graphic Design Masterclasses">Graphic Design Masterclasses</option>
+                        <option value="Graphic Design Professional Training">Graphic Design Professional Training</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-field">
+                    <label for="cf-availability">Preferred availability</label>
+                    <select id="cf-availability" name="availability" required>
+                      <option value="">Choose a session…</option>
+                      <option value="Morning Session (09am – 12pm)">Morning Session (09am – 12pm)</option>
+                      <option value="Afternoon Session (01pm – 03pm)">Afternoon Session (01pm – 03pm)</option>
+                      <option value="Evening Session (04pm – 06pm)">Evening Session (04pm – 06pm)</option>
+                    </select>
+                  </div>
+                  <div class="cf-actions">
+                    <button type="submit" class="btn btn-primary" id="cf-submit" disabled>
+                      <span>Register on WhatsApp</span>
+                      <span class="material-symbols-outlined icon-sm" aria-hidden="true">chat</span>
+                    </button>
+                    <span class="form-status is-invalid" id="form-status" aria-live="polite">
+                      <span class="form-status-dot" aria-hidden="true"></span>
+                      <span class="form-status-text">Fill the form to enable registration</span>
+                    </span>
+                  </div>
+                  <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+                </form>
+              </div>
+
+              <div class="form-panel" id="panel-enquiry" data-panel="enquiry" role="tabpanel" hidden>
+                <form class="contact-form" id="enquiry-form" novalidate>
+                  <div class="form-row">
+                    <div class="form-field">
+                      <label for="enq-name">Full name</label>
+                      <input id="enq-name" name="name" type="text" placeholder="Your name" autocomplete="name" required />
+                    </div>
+                    <div class="form-field">
+                      <label for="enq-email">Email address</label>
+                      <input id="enq-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
+                    </div>
+                  </div>
+                  <div class="form-field">
+                    <label for="enq-org">Company / Organization <span class="muted">(optional)</span></label>
+                    <input id="enq-org" name="org" type="text" placeholder="Your company or organization" autocomplete="organization" />
+                  </div>
+                  <div class="form-field">
+                    <label for="enq-need">What do you need help with?</label>
+                    <select id="enq-need" name="need">
+                      <option value="Product / Software">Product / Software</option>
+                      <option value="UX/UI Design">UX/UI Design</option>
+                      <option value="Brand / Creative">Brand / Creative</option>
+                      <option value="Training">Training</option>
+                      <option value="Digital Strategy">Digital Strategy</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  <input id="enq-package" name="package" type="hidden" value="" />
+                  <div class="form-row">
+                    <div class="form-field">
+                      <label for="enq-budget">Budget range</label>
+                      <select id="enq-budget" name="budget">
+                        <option>Not sure yet</option>
+                        <option>Under 500,000 FCFA</option>
+                        <option>500,000 – 1,500,000 FCFA</option>
+                        <option>1,500,000 – 3,000,000 FCFA</option>
+                        <option>3,000,000+ FCFA</option>
+                        <option>Let&rsquo;s discuss</option>
+                      </select>
+                    </div>
+                    <div class="form-field">
+                      <label for="enq-timeline">Timeline</label>
+                      <select id="enq-timeline" name="timeline">
+                        <option>As soon as possible</option>
+                        <option>Within 1 month</option>
+                        <option>1&ndash;3 months</option>
+                        <option>3&ndash;6 months</option>
+                        <option>Flexible</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-field">
+                    <label for="enq-msg">Tell us about your project</label>
+                    <textarea id="enq-msg" name="message" placeholder="What are you trying to build, improve, solve, or launch?" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block" id="enq-submit">
+                    <span>Send project enquiry on WhatsApp</span>
+                    <span class="material-symbols-outlined icon-sm" aria-hidden="true">send</span>
+                  </button>
+                  <p class="form-note" id="enq-note" role="status" aria-live="polite"></p>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <aside class="contact-aside reveal" data-d="120">
+            <div class="contact-card">
+              <span class="label-caps">Prefer a direct conversation?</span>
+              <div class="contact-lines">
+                <span class="contact-line"><span class="material-symbols-outlined icon-sm tone-primary">alternate_email</span><span class="code-badge">contact@nloga.com</span></span>
+                <span class="contact-line"><span class="material-symbols-outlined icon-sm tone-primary">call</span><span class="code-badge">(+237) 680 64 32 44/693 54 77 73</span></span>
+                <span class="contact-line"><span class="material-symbols-outlined icon-sm tone-primary">location_on</span><span class="code-badge">Douala &amp; Yaoundé</span></span>
+              </div>
+              <a class="btn btn-primary btn-block" id="book-call" href="https://wa.me/237680643244?text=Hello%20Nloga%2C%20I%20would%20like%20to%20book%20a%2030-minute%20strategy%20call." target="_blank" rel="noopener"><span class="material-symbols-outlined icon-sm" aria-hidden="true">calendar_month</span><span>Book a 30-min strategy call</span></a>
+              <p class="book-note body-sm muted">Free and no obligation — pick a slot and tell us where you are.</p>
+              <a class="btn btn-outline btn-block" href="mailto:contact@nloga.com"><span>Contact Nloga</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></a>
+              <a class="btn btn-whatsapp btn-block" id="contact-whatsapp" href="https://wa.me/237680643244" target="_blank" rel="noopener"><span class="material-symbols-outlined icon-sm" aria-hidden="true">chat</span><span>Chat on WhatsApp</span></a>
+            </div>
+            <div class="mini-card">
+              <span class="mini-card-title"><span class="material-symbols-outlined icon-sm tone-primary">verified</span>FAQ shortcut</span>
+              <p class="body-sm muted">No spec needed. One conversation is enough to find the right next step.</p>
+            </div>
+          </aside>
+        </div>
+
+        <div class="faq-grid">
+          <div class="faq-left reveal" style="margin-top: 30px;">
+            <span class="eyebrow label-caps">Questions &amp; clarity</span>
+            <h3 class="headline-lg">Frequently asked questions</h3>
+            <p class="body-md muted">Everything you need to know about working with Nloga.</p>
+          </div>
+          <div class="faq-list reveal" data-d="100" id="faq-accordion" style="margin-top: 20px;">
+            <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false"><span>Do I need a complete specification first?</span><span class="material-symbols-outlined faq-icon">add</span></button><div class="faq-a"><p class="body-md muted">No. Come with an idea, a problem, or an existing product — the first conversation is about understanding where you are.</p></div></div>
+            <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false"><span>Do you only work with tech companies?</span><span class="material-symbols-outlined faq-icon">add</span></button><div class="faq-a"><p class="body-md muted">No. Startups, SMEs, organizations, institutions, creators — the common factor is a meaningful problem to solve well.</p></div></div>
+            <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false"><span>Can you work on an existing product?</span><span class="material-symbols-outlined faq-icon">add</span></button><div class="faq-a"><p class="body-md muted">Yes — UX, design, architecture, development, performance, branding, or a larger transformation.</p></div></div>
+            <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false"><span>Can you handle both design and development?</span><span class="material-symbols-outlined faq-icon">add</span></button><div class="faq-a"><p class="body-md muted">Yes. Design decisions sit next to technical realities, not in separate phases.</p></div></div>
+            <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false"><span>Do you work with international clients?</span><span class="material-symbols-outlined faq-icon">add</span></button><div class="faq-a"><p class="body-md muted">Yes. Nloga works beyond Cameroon through remote collaboration.</p></div></div>
+            <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false"><span>Do you offer training?</span><span class="material-symbols-outlined faq-icon">add</span></button><div class="faq-a"><p class="body-md muted">Yes — through Now Just Create, our learning and development initiative.</p></div></div>
+            <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false"><span>Can we engage only one pillar?</span><span class="material-symbols-outlined faq-icon">add</span></button><div class="faq-a"><p class="body-md muted">Yes. Engage only design, only software, only branding — or the combination your project needs.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="start">
+      <div class="container">
+        <div class="cta-panel glass-panel reveal">
+          <div class="cta-glow" aria-hidden="true"></div>
+          <div class="cta-grid">
+            <div class="cta-main">
+              <span class="status-pill status-pill-primary"><span class="dot dot-primary"></span><span class="label-caps">Have something in mind?</span></span>
+              <h2 class="headline-xl">Something worth building?<br /><span class="tone-primary">Let&rsquo;s figure out what it should become.</span></h2>
+              <p class="body-lg muted">Whether it is a prototype, an enterprise system, or a brand — we are ready to partner with you.</p>
+            </div>
+            <div class="cta-side">
+              <a class="btn btn-primary btn-block" href="#contact"><span>Start a project</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></a>
+              <a class="btn btn-outline btn-block" href="mailto:contact@nloga.com"><span>Talk to Nloga</span></a>
+              <div class="contact-card">
+                <span class="label-caps faint">Direct dispatch</span>
+                <a class="contact-row" href="mailto:contact@nloga.com"><span class="material-symbols-outlined icon-sm tone-primary">mail</span><span class="code-badge">contact@nloga.com</span></a>
+                <span class="contact-row"><span class="material-symbols-outlined icon-sm tone-primary">location_on</span><span class="code-badge">Douala &amp; Yaoundé, Cameroon</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#home"><span class="brand-chip"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/nloga_consulting_logo.webp" /><img src="NLOGA_VISUAL_IDENTITY/nloga_consulting_logo.jfif" alt="Nloga monogram" decoding="async" /></picture></span><span class="brand-text"><strong>NLOGA</strong><small>Venture Studio</small></span></a>
+          <p class="headline-md muted">Building digital products and brands from strategy through execution.</p>
+          <div class="footer-hq"><span class="label-caps tone-primary">Global presence &amp; HQ</span><span class="body-md muted">Cameroon</span><span class="code-badge faint">Distributed Venture Network</span></div>
+        </div>
+        <div class="footer-col">
+          <span class="label-caps tone-primary">Navigate</span>
+          <a class="footer-link" href="#home">Home</a>
+          <a class="footer-link" href="#capabilities">Capabilities</a>
+          <a class="footer-link" href="#work">Work</a>
+          <a class="footer-link" href="#ecosystem">Ecosystem</a>
+          <a class="footer-link" href="#pricing">Pricing</a>
+          <a class="footer-link" href="#about">About</a>
+          <a class="footer-link" href="#insights">Insights</a>
+          <a class="footer-link" href="#contact">Contact</a>
+          <a class="footer-link" href="#faq-accordion">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <span class="label-caps tone-primary">Ecosystem pillars</span>
+          <a class="footer-pillar" href="#ecosystem"><span class="code-badge">Forgeware</span><span class="body-sm muted">Digital products &amp; software.</span></a>
+          <a class="footer-pillar" href="#ecosystem"><span class="code-badge">CreativePics Art</span><span class="body-sm muted">Brand, visual &amp; creative design.</span></a>
+          <a class="footer-pillar" href="#ecosystem"><span class="code-badge">Now Just Create</span><span class="body-sm muted">Learning, training &amp; development.</span></a>
+        </div>
+        <div class="footer-col">
+          <span class="label-caps tone-primary">Connect</span>
+          <a class="footer-link" href="mailto:contact@nloga.com"><span class="material-symbols-outlined icon-sm tone-primary">alternate_email</span> contact@nloga.com</a>
+          <a class="footer-link" href="#insights"><span class="material-symbols-outlined icon-sm tone-primary">rss_feed</span> Studio dispatch</a>
+          <div class="footer-philosophy"><span class="label-caps faint">Studio philosophy</span><p class="code-badge strong">&ldquo;Think deeply. Design intentionally. Build properly.&rdquo;</p></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="code-badge faint">&copy; <span id="year">2025</span> Nloga. All rights reserved.</span>
+        <div class="footer-legal"><button type="button" class="code-badge faint footer-legal-btn" data-modal="legal-privacy">Privacy Policy</button><button type="button" class="code-badge faint footer-legal-btn" data-modal="legal-terms">Terms &amp; Conditions</button></div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fab-stack">
+    <a class="fab fab-whatsapp" id="fab-whatsapp" href="https://wa.me/237680643244?text=Hello%20Nloga%2C%20I%20have%20a%20project%20to%20discuss." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="Chat on WhatsApp"><span class="material-symbols-outlined" aria-hidden="true">chat</span></a>
+    <button class="fab fab-top" id="back-to-top" type="button" aria-label="Back to top" title="Back to top"><span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span></button>
+  </div>
+
+  <div class="modal-overlay" id="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-label="Details">
+      <button class="modal-close" id="modal-close" type="button" aria-label="Close dialog"><span class="material-symbols-outlined" aria-hidden="true">close</span></button>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <span class="lb-count code-badge" id="lb-count" aria-hidden="true"></span>
+    <button class="lb-btn lb-close" id="lb-close" type="button" aria-label="Close viewer"><span class="material-symbols-outlined" aria-hidden="true">close</span></button>
+    <button class="lb-btn lb-prev" id="lb-prev" type="button" aria-label="Previous image"><span class="material-symbols-outlined" aria-hidden="true">chevron_left</span></button>
+    <figure class="lb-figure">
+      <img id="lb-img" src="icon-32.png" alt="" />
+      <figcaption class="code-badge" id="lb-cap"></figcaption>
+    </figure>
+    <button class="lb-btn lb-next" id="lb-next" type="button" aria-label="Next image"><span class="material-symbols-outlined" aria-hidden="true">chevron_right</span></button>
+  </div>
+
+  <div hidden>
+    <div class="modal-src" id="case-1">
+      <span class="code-badge tone-primary">Forgeware · Case study</span>
+      <h3 class="headline-lg">HRConnect — payroll people can actually use</h3>
+      <div class="case-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655731479-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655731479-1280.webp 1280w" sizes="(min-width: 880px) 720px, 92vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655731479.jfif" alt="HRConnect payroll interface by Forgeware" loading="lazy" decoding="async" /></picture></div>
+      <p class="body-md muted">An HR team was running payroll across spreadsheets and chat threads. We designed and built HRConnect: one workspace for people, time, and pay.</p>
+      <h4 class="modal-h">The challenge</h4>
+      <p class="body-md muted">Hours, leave, and overtime lived in different places, so every payroll run meant days of reconciliation and room for error.</p>
+      <h4 class="modal-h">What we built</h4>
+      <ul class="modal-list">
+        <li>Employee directory with roles, contracts, and history.</li>
+        <li>Time, attendance, leave, and overtime tracking in one flow.</li>
+        <li>Payroll summaries generated from verified data — no retyping.</li>
+      </ul>
+      <h4 class="modal-h">Outcome</h4>
+      <ul class="modal-list">
+        <li>Payroll runs go from days of reconciliation to a single review pass.</li>
+        <li>Managers and staff see the same numbers — fewer disputes.</li>
+        <li>A maintainable codebase the team can extend module by module.</li>
+      </ul>
+      <div class="chip-row"><span class="chip">Web app</span><span class="chip">SaaS</span><span class="chip">APIs</span></div>
+      <a class="btn btn-primary btn-block modal-cta" href="#contact"><span>Start a similar project</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></a>
+    </div>
+    <div class="modal-src" id="case-2">
+      <span class="code-badge tone-secondary">CreativePics Art · Case study</span>
+      <h3 class="headline-lg">IMANI-J Style — an identity ready to be worn</h3>
+      <div class="case-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655734037-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655734037-1280.webp 1280w" sizes="(min-width: 880px) 720px, 92vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655734037.jfif" alt="IMANI-J Style brand identity by CreativePics Art" loading="lazy" decoding="async" /></picture></div>
+      <p class="body-md muted">A growing fashion retailer needed more than a logo: a full identity system that works on cards, packaging, and fabric.</p>
+      <h4 class="modal-h">The challenge</h4>
+      <p class="body-md muted">The business had outgrown its first visuals. Every new touchpoint — flyers, tags, socials — looked like a different brand.</p>
+      <h4 class="modal-h">What we built</h4>
+      <ul class="modal-list">
+        <li>Logo suite with color, typography, and usage rules.</li>
+        <li>Business cards, price tags, and shopping-bag-ready lockups.</li>
+        <li>Launch visuals for menswear and womenswear lines.</li>
+      </ul>
+      <h4 class="modal-h">Outcome</h4>
+      <ul class="modal-list">
+        <li>One recognizable identity across every customer touchpoint.</li>
+        <li>Print-ready files the owner reuses without a designer on call.</li>
+        <li>A brand that photographs well — built for social selling.</li>
+      </ul>
+      <div class="chip-row"><span class="chip">Identity</span><span class="chip">Branding</span><span class="chip">Marketing</span></div>
+      <a class="btn btn-primary btn-block modal-cta" href="#contact"><span>Start a similar project</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></a>
+    </div>
+    <div class="modal-src" id="case-3">
+      <span class="code-badge tone-primary">Forgeware · Case study</span>
+      <h3 class="headline-lg">Operations systems that grow with the business</h3>
+      <div class="case-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655732189-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655732189-1280.webp 1280w" sizes="(min-width: 880px) 720px, 92vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655732189.jfif" alt="Operations dashboard by Forgeware" loading="lazy" decoding="async" /></picture></div>
+      <p class="body-md muted">When off-the-shelf tools stop fitting, we design internal systems around the way the business really operates.</p>
+      <h4 class="modal-h">The challenge</h4>
+      <p class="body-md muted">Critical workflows lived in people's heads and inboxes. Onboarding took weeks, and reporting meant manual assembly.</p>
+      <h4 class="modal-h">What we built</h4>
+      <ul class="modal-list">
+        <li>Mapped the real process with the team before writing code.</li>
+        <li>Role-based workspaces with clear permissions and audit trails.</li>
+        <li>Dashboards that answer daily questions without exports.</li>
+      </ul>
+      <h4 class="modal-h">Outcome</h4>
+      <ul class="modal-list">
+        <li>New joiners become productive in days, not weeks.</li>
+        <li>Decisions run on live data instead of assembled reports.</li>
+        <li>Architecture ready for the next three modules, not just this one.</li>
+      </ul>
+      <div class="chip-row"><span class="chip">Web apps</span><span class="chip">Mobile</span><span class="chip">APIs</span></div>
+      <a class="btn btn-primary btn-block modal-cta" href="#contact"><span>Start a similar project</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></a>
+    </div>
+    <div class="modal-src" id="case-4">
+      <span class="code-badge tone-tertiary">Now Just Create · Case study</span>
+      <h3 class="headline-lg">Design and technology, taught by building</h3>
+      <div class="case-media"><picture><source type="image/webp" srcset="NLOGA_VISUAL_IDENTITY/1787655732669-640.webp 640w, NLOGA_VISUAL_IDENTITY/1787655732669-1280.webp 1280w" sizes="(min-width: 880px) 720px, 92vw" /><img src="NLOGA_VISUAL_IDENTITY/1787655732669.jfif" alt="Now Just Create training session" loading="lazy" decoding="async" /></picture></div>
+      <p class="body-md muted">A practical learning program where participants ship real work — not just watch slides.</p>
+      <h4 class="modal-h">The challenge</h4>
+      <p class="body-md muted">Teams knew the vocabulary of design and tech but stumbled when applying it to real constraints and deadlines.</p>
+      <h4 class="modal-h">What we built</h4>
+      <ul class="modal-list">
+        <li>Studio-style cohorts mixing design thinking and hands-on tooling.</li>
+        <li>Briefs drawn from real business problems, reviewed like client work.</li>
+        <li>Mentorship through the first shipped portfolio piece.</li>
+      </ul>
+      <h4 class="modal-h">Outcome</h4>
+      <ul class="modal-list">
+        <li>Graduates leave with portfolio proof, not just attendance.</li>
+        <li>Employers get juniors who already know studio workflows.</li>
+        <li>A growing alumni community that keeps sharing work.</li>
+      </ul>
+      <div class="chip-row"><span class="chip">UX/UI</span><span class="chip">Product</span><span class="chip">Workflows</span></div>
+      <a class="btn btn-primary btn-block modal-cta" href="#contact"><span>Start learning</span><span class="material-symbols-outlined icon-sm">arrow_forward</span></a>
+    </div>
+    <div class="modal-src" id="article-1">
+      <span class="code-badge tone-primary">Product · Studio notes</span>
+      <h3 class="headline-lg">Why building the product is not the same as solving the problem</h3>
+      <p class="body-md muted">A product can work perfectly and still solve the wrong problem. We see it often: a team ships on time, the app runs smoothly — and nobody uses it. The code was correct; the understanding was not.</p>
+      <p class="body-md muted">That is why our process starts before any screen or database. We ask who is struggling, what they tried already, and what success would change in their week. Only then do we decide what to build — and just as importantly, what not to build.</p>
+      <p class="body-md muted">Clarity is cheaper than code. An hour of honest discovery can save a month of rebuilding. If you take one habit from this article: write the problem in one sentence before you write a single requirement.</p>
+      <h4 class="modal-h">Takeaway</h4>
+      <p class="body-md muted">Build the smallest thing that proves the problem is understood — then expand with confidence.</p>
+    </div>
+    <div class="modal-src" id="article-2">
+      <span class="code-badge tone-secondary">Design · Studio notes</span>
+      <h3 class="headline-lg">Good design is not decoration</h3>
+      <p class="body-md muted">Decoration asks “does it look nice?” Design asks “does it work for the person using it?” A beautiful button nobody finds is a failed button, however elegant.</p>
+      <p class="body-md muted">Good design is mostly invisible: the form that explains itself, the pricing page that answers objections before they form, the dashboard that shows today's answer without exporting anything. That invisibility takes deliberate work — hierarchy, consistency, and ruthless removal.</p>
+      <p class="body-md muted">When we review interfaces, we look for friction first and style second. If a user hesitates, the design has something to say — our job is to listen, then simplify.</p>
+      <h4 class="modal-h">Takeaway</h4>
+      <p class="body-md muted">Judge every screen by what the user can do next, not by how it photographs.</p>
+    </div>
+    <div class="modal-src" id="article-3">
+      <span class="code-badge tone-tertiary">Nloga · Studio notes</span>
+      <h3 class="headline-lg">One studio, three forces: build, design, empower</h3>
+      <p class="body-md muted">Most projects fail in the handoffs: strategy hands to design, design hands to engineering, engineering hands to users — and something is lost each time. Nloga exists to remove those seams.</p>
+      <p class="body-md muted">Forgeware builds the technology, CreativePics Art gives it identity and voice, and Now Just Create makes sure the capability stays with people, not just vendors. Each force sharpens the others: engineers who understand branding ship more coherent products; designers who understand systems design things that can actually be built.</p>
+      <p class="body-md muted">You can engage one pillar alone. But the compounding happens when they move together — which is how ambitious ideas survive contact with reality.</p>
+      <h4 class="modal-h">Takeaway</h4>
+      <p class="body-md muted">Convergence beats handoffs: keep strategy, design, and engineering in the same conversation.</p>
+    </div>
+    <div class="modal-src" id="legal-privacy">
+      <span class="code-badge tone-primary">Legal</span>
+      <h3 class="headline-lg">Privacy Policy</h3>
+      <p class="body-md muted">Nloga collects only what is needed to respond to you and deliver its services.</p>
+      <h4 class="modal-h">What we collect</h4>
+      <ul class="modal-list">
+        <li>Contact details you share through the enquiry form (name, email, organization, project notes).</li>
+        <li>Messages you send us by email or WhatsApp.</li>
+        <li>Preferences stored on your own device (theme and language) — never sent anywhere.</li>
+      </ul>
+      <h4 class="modal-h">How we use it</h4>
+      <ul class="modal-list">
+        <li>To reply to enquiries and prepare quotes.</li>
+        <li>Never sold, never shared with advertisers, never used for spam.</li>
+      </ul>
+      <h4 class="modal-h">Your rights</h4>
+      <p class="body-md muted">Write to contact@nloga.com at any time to access, correct, or delete your data.</p>
+    </div>
+    <div class="modal-src" id="legal-terms">
+      <span class="code-badge tone-secondary">Legal</span>
+      <h3 class="headline-lg">Terms &amp; Conditions</h3>
+      <p class="body-md muted">Working with Nloga is simple: clear scope, honest timelines, and mutual respect.</p>
+      <h4 class="modal-h">Engagements</h4>
+      <ul class="modal-list">
+        <li>Every project starts with an agreed scope, timeline, and quote before work begins.</li>
+        <li>Changes in scope are discussed and re-quoted — never billed silently.</li>
+      </ul>
+      <h4 class="modal-h">Intellectual property</h4>
+      <ul class="modal-list">
+        <li>On final payment, deliverables created for you become yours.</li>
+        <li>Nloga may showcase completed work in its portfolio unless agreed otherwise.</li>
+      </ul>
+      <h4 class="modal-h">Confidentiality</h4>
+      <p class="body-md muted">Ideas and documents you share during discussions stay confidential, quoted or not.</p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/analytics.js?v=1"></script>
+  <script src="js/i18n.js?v=4"></script>
+  <script src="js/script.js?v=8"></script>
+</body>
+</html>
